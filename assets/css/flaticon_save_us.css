@@ -3,8 +3,8 @@
     src: url("../fonts/flaticon_save_us.ttf?2f0624678fb5e8dd15876c2962b64af9") format("truetype"),
 url("../fonts/flaticon_save_us.woff?2f0624678fb5e8dd15876c2962b64af9") format("woff"),
 url("../fonts/flaticon_save_us.woff2?2f0624678fb5e8dd15876c2962b64af9") format("woff2"),
-url("../fonts/flaticon_save_us.eot?2f0624678fb5e8dd15876c2962b64af9") format("embedded-opentype"),
-url("../fonts/flaticon_save_us.svg?2f0624678fb5e8dd15876c2962b64af9") format("svg");
+url("../fonts/flaticon_save_us.eot?2f0624678fb5e8dd15876c2962b64af9#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_save_us.svg?2f0624678fb5e8dd15876c2962b64af9#flaticon_save_us") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
