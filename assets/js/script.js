@@ -941,7 +941,7 @@
 		  verticalbuttons: true
 		});
 	}
-
+	
 
 	
 
@@ -1004,6 +1004,6 @@
 		enableMasonry();
 	});
 	
-
+	
 })(window.jQuery);
 
