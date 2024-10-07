@@ -74,7 +74,31 @@
 	$(this).css("background-image", "url( " + $(this).attr("data-background") + " )");
 	});
 	
+	// price handel
+	$( "#slider-range" ).slider({
+		range: "max",
+		min: 0,
+		max: 1000,
+		value: 500,
+		slide: function( event, ui ) {
+		  $( "#maxAmount" ).val( ui.value );
+		}
+	});
+	$( "#maxAmount" ).val( $( "#slider-range" ).slider( "value" ) );
 
+	  // cart page input increasing order
+	$('.quantity').prop('disabled', true);
+	$(document).on('click','.plus-btn',function(e){
+	e.preventDefault();
+	$('.quantity').val(parseInt($('.quantity').val()) + 1 );
+	});
+	$(document).on('click','.minus-btn',function(e){
+	e.preventDefault();
+	$('.quantity').val(parseInt($('.quantity').val()) - 1 );
+		if ($('.quantity').val() == 0) {
+		$('.quantity').val(1);
+	}
+	});
 
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
